@@ -1,13 +1,790 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>This is a test</h1>
-    <p>This is to test a deployment to github pages</p>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Die Haghe Zorg | Zorg, voor elkaar</title>
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link
+      href="plugins/revolution/css/settings.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- REVOLUTION SETTINGS STYLES -->
+    <link
+      href="plugins/revolution/css/layers.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- REVOLUTION LAYERS STYLES -->
+    <link
+      href="plugins/revolution/css/navigation.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- REVOLUTION NAVIGATION STYLES -->
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+    <!-- Responsive -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+  </head>
+
+  <body>
+    <div class="page-wrapper">
+      <!-- Preloader -->
+      <div class="preloader"></div>
+
+      <!-- Header Style Five -->
+      <header class="main-header header-style-five">
+        <!-- Header Top Two -->
+        <div class="header-top-two">
+          <div class="auto-container clearfix">
+            <div class="top-left clearfix">
+              <div class="text">
+                Hulp nodig? Bel meteen:
+                <a href="tel:070 223 0039" class="number">070 223 0039</a>
+              </div>
+              <div class="apply">
+                <!-- TODO link naar formulier -->
+                Werken in de zorg? <a href="#">Solliciteer gelijk</a>
+              </div>
+            </div>
+            <div class="top-right clearfix"></div>
+          </div>
+        </div>
+        <!-- End Header Top -->
+
+        <!-- Header Upper -->
+        <div class="header-upper">
+          <div class="inner-container">
+            <div class="auto-container clearfix">
+              <!--Logo-->
+              <div class="logo-outer">
+                <div class="logo">
+                  <a href="index.html"
+                    ><img
+                      src="images/footer-logo.png"
+                      style="max-height: 70px"
+                      alt=""
+                      title=""
+                  /></a>
+                </div>
+              </div>
+
+              <!--Info-->
+              <div class="info-outer clearfix">
+                <div class="info-box">
+                  <a href="contact.html" class="theme-btn btn-style-one"
+                    ><span class="txt">Stel je vraag</span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--End Header Upper-->
+
+        <div class="header-lower">
+          <div class="auto-container">
+            <!--Nav Box-->
+            <div class="nav-outer clearfix">
+              <!--Mobile Navigation Toggler For Mobile-->
+              <div class="mobile-nav-toggler">
+                <span class="icon flaticon-menu-button"></span>
+              </div>
+              <!-- Main Menu Start-->
+              <nav class="main-menu navbar-expand-md navbar-light">
+                <div class="navbar-header">
+                  <!-- Togg le Button -->
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="icon flaticon-menu"></span>
+                  </button>
+                </div>
+
+                <div
+                  class="collapse navbar-collapse clearfix"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navigation clearfix">
+                    <li class="current">
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="over-ons.html">Over ons</a>
+                    </li>
+                    <li>
+                      <a href="thuiszorg.html">Thuiszorg</a>
+                      <ul>
+                        <li>
+                          <a href="elderly-service.html"
+                            >Verzorging & Verpleging</a
+                          >
+                        </li>
+                        <li>
+                          <a href="personal-care.html">Huishoudelijke hulp</a>
+                        </li>
+                        <li><a href="respite-care.html">Begeleiding</a></li>
+                        <li><a href="nursing.html">Dagbesteding</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#">Informatie</a>
+                      <ul>
+                        <li><a href="blog.html">Laatste nieuws</a></li>
+                        <li><a href="gallery.html">Gallerij</a></li>
+                        <li>
+                          <a href="started.html">Beginnen met thuiszorg</a>
+                        </li>
+                        <li><a href="caregiver.html">Vacatures</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <!-- Main Menu End-->
+
+              <div class="outer-box clearfix">
+                <!-- Search Form Box -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+          <div class="menu-backdrop"></div>
+          <div class="close-btn">
+            <span class="icon flaticon-cancel-1"></span>
+          </div>
+
+          <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+          <nav class="menu-box">
+            <div class="nav-logo">
+              <a href="index.html"
+                ><img src="images/nav-logo.png" alt="" title=""
+              /></a>
+            </div>
+
+            <ul class="navigation clearfix">
+              <!--Keep This Empty / Menu will come through Javascript-->
+            </ul>
+          </nav>
+        </div>
+        <!-- End Mobile Menu -->
+      </header>
+      <!-- End Main Header -->
+
+      <!--Main Slider-->
+      <section class="main-slider">
+        <div
+          class="rev_slider_wrapper fullwidthbanner-container"
+          id="rev_slider_one_wrapper"
+          data-source="gallery"
+        >
+          <div
+            class="rev_slider fullwidthabanner"
+            id="rev_slider_one"
+            data-version="5.4.1"
+          >
+            <ul>
+              <li
+                data-transition="parallaxvertical"
+                data-description="Slide Description"
+                data-easein="default"
+                data-easeout="default"
+                data-fsmasterspeed="1500"
+                data-fsslotamount="7"
+                data-fstransition="fade"
+                data-hideafterloop="0"
+                data-hideslideonmobile="off"
+                data-index="rs-1688"
+                data-masterspeed="default"
+                data-param1=""
+                data-param10=""
+                data-param2=""
+                data-param3=""
+                data-param4=""
+                data-param5=""
+                data-param6=""
+                data-param7=""
+                data-param8=""
+                data-param9=""
+                data-rotate="0"
+                data-saveperformance="off"
+                data-slotamount="default"
+                data-thumb="images/main-slider/1.jpg"
+                data-title="Slide Title"
+              >
+                <img
+                  alt=""
+                  class="rev-slidebg"
+                  data-bgfit="cover"
+                  data-bgparallax="10"
+                  data-bgposition="center center"
+                  data-bgrepeat="no-repeat"
+                  data-no-retina=""
+                  src="images/main-slider/1.jpg"
+                />
+
+                <div
+                  class="tp-caption"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingtop="[0,0,0,0]"
+                  data-responsive_offset="on"
+                  data-type="text"
+                  data-height="none"
+                  data-width="['700','700','650','450']"
+                  data-whitespace="normal"
+                  data-hoffset="['-150','15','15','15']"
+                  data-voffset="['-90','-110','-110','-110']"
+                  data-x="['right','right','left','left']"
+                  data-y="['middle','middle','middle','middle']"
+                  data-textalign="['top','top','top','top']"
+                  data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                >
+                  <h2 class="style-two">
+                    Thuiszorg, tijdelijke <br />
+                    en permanente zorg
+                  </h2>
+                </div>
+
+                <div
+                  class="tp-caption"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingtop="[0,0,0,0]"
+                  data-responsive_offset="on"
+                  data-type="text"
+                  data-height="none"
+                  data-width="['700','700','650','450']"
+                  data-whitespace="normal"
+                  data-hoffset="['-150','15','15','15']"
+                  data-voffset="['25','10','10','10']"
+                  data-x="['right','right','left','left']"
+                  data-y="['middle','middle','middle','middle']"
+                  data-textalign="['top','top','top','top']"
+                  data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                >
+                  <div class="text style-two">
+                    De zorg die nodig is in een vertrouwde omgeving. Ervaar
+                    professionele zorg aan huis.
+                  </div>
+                </div>
+
+                <div
+                  class="tp-caption"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingtop="[0,0,0,0]"
+                  data-responsive_offset="on"
+                  data-type="text"
+                  data-height="none"
+                  data-whitespace="normal"
+                  data-width="['700','700','650','450']"
+                  data-hoffset="['-150','15','15','15']"
+                  data-voffset="['115','100','120','120']"
+                  data-x="['right','right','left','left']"
+                  data-y="['middle','middle','middle','middle']"
+                  data-textalign="['top','top','top','top']"
+                  data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                >
+                  <div class="link-box">
+                    <a
+                      href="elderly-service.html"
+                      class="theme-btn btn-style-one"
+                      ><span class="txt">Meer informatie</span></a
+                    >
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!--End Main Slider-->
+
+      <!-- Mission Section -->
+      <section class="mission-section style-two">
+        <div class="auto-container">
+          <div class="row clearfix">
+            <!-- Image Column -->
+            <div class="image-column col-lg-3 col-md-4 col-sm-12">
+              <div class="inner-column">
+                <div class="image">
+                  <img src="images/resource/mission.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Content Column -->
+            <div class="content-column col-lg-9 col-md-8 col-sm-12">
+              <div class="inner-column">
+                <h2>Die Haghe Zorg Missie</h2>
+                <div class="bold-text">
+                  Bij Die Haghe Zorg gaan we verder dan alleen zorg verlenen; we
+                  streven ernaar om een ​​warm en ondersteunend thuisgevoel te
+                  bieden, waarin ouderen kunnen floreren en volop van het leven
+                  kunnen genieten.
+                </div>
+                <div class="text">
+                  Toen onze oprichters begonnen met het verlenen van zorg aan
+                  hun eigen moeder om haar te helpen thuis te blijven, zagen ze
+                  een toekomst voor zich waarin alle mensen met meer hoop en
+                  succes zouden kunnen ouder worden. We streven ernaar om die
+                  visie werkelijkheid te maken met elk leven dat we het
+                  voorrecht hebben om aan te raken.
+                </div>
+                <h3>Het Verouderingsproces Veranderen</h3>
+                <div class="bold-text">
+                  Wij bij Die Haghe Zorg streven ernaar om het
+                  verouderingsproces een positieve wending te geven. Onze
+                  diensten omvatten:
+                </div>
+                <div class="row clearfix">
+                  <div class="column col-lg-6 col-md-6 col-sm-12">
+                    <ul class="list-style-two">
+                      <li>
+                        - Hulp bij lezen, schrijven en lichte huishoudelijke
+                        taken
+                      </li>
+                      <li>
+                        - Assistentie bij boodschappen doen voor voedsel of
+                        kleding
+                      </li>
+                      <li>- Vervoer van en naar afspraken</li>
+                      <li>- Samen genieten van hobby's, kunst en ambachten</li>
+                    </ul>
+                  </div>
+                  <div class="column col-lg-6 col-md-6 col-sm-12">
+                    <ul class="list-style-two">
+                      <li>
+                        - Het aanschaffen van tijdschriften, kranten en boeken
+                      </li>
+                      <li>- Gezellige sociale bezoeken aan buren en clubs</li>
+                      <li>- Bereiding van eenvoudige maaltijden</li>
+                      <li>
+                        - Faciliteren van videogesprekken met familie en
+                        vrienden
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Mission Section -->
+
+      <!-- Services Section Two -->
+      <section id="services-section" class="services-section-two">
+        <div class="auto-container">
+          <!-- Sec Title -->
+          <div class="sec-title">
+            <h2>Wat kunnen wij u bieden</h2>
+            <!-- <div class="text">
+              A dependable, compassionate presence you can trust.
+            </div> -->
+          </div>
+
+          <div class="services-carousel owl-carousel owl-theme">
+            <!-- Service Block Two -->
+            <div class="service-block-two">
+              <div class="inner-box">
+                <div class="image">
+                  <a href="elderly-service.html"
+                    ><img src="images/resource/service-4.jpg" alt=""
+                  /></a>
+                </div>
+                <div class="lower-content">
+                  <h3>
+                    <a href="elderly-service.html">Verzorging & Verpleging</a>
+                  </h3>
+                  <div class="text">
+                    Leverage agile frameworks to pro vide a robust synopsis for
+                    high level overviews approaches.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Service Block Two -->
+            <div class="service-block-two">
+              <div class="inner-box">
+                <div class="image">
+                  <a href="respite-care.html"
+                    ><img src="images/resource/service-6.jpg" alt=""
+                  /></a>
+                </div>
+                <div class="lower-content">
+                  <h3><a href="respite-care.html">Begeleiding</a></h3>
+                  <div class="text">
+                    Leverage agile frameworks to pro vide a robust synopsis for
+                    high level overviews approaches.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Service Block Two -->
+            <div class="service-block-two">
+              <div class="inner-box">
+                <div class="image">
+                  <a href="personal-care.html"
+                    ><img src="images/resource/service-7.jpg" alt=""
+                  /></a>
+                </div>
+                <div class="lower-content">
+                  <h3><a href="personal-care.html">Huishoudelijke Hulp</a></h3>
+                  <div class="text">
+                    Leverage agile frameworks to pro vide a robust synopsis for
+                    high level overviews approaches.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Service Block Two -->
+            <div class="service-block-two">
+              <div class="inner-box">
+                <div class="image">
+                  <a href="elderly-service.html"
+                    ><img src="images/resource/service-4.jpg" alt=""
+                  /></a>
+                </div>
+                <div class="lower-content">
+                  <h3>
+                    <a href="elderly-service.html">Dagbesteding</a>
+                  </h3>
+                  <div class="text">
+                    Leverage agile frameworks to pro vide a robust synopsis for
+                    high level overviews approaches.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Services Section Two -->
+
+      <!-- Fluid Section One -->
+      <section class="fluid-section-one">
+        <div class="outer-container clearfix">
+          <!--Content Column-->
+          <div class="content-column">
+            <div class="content-box">
+              <h2>Wij staan altijd klaar</h2>
+              <div class="text">
+                We begrijpen dat het soms overweldigend kan zijn om een vreemde
+                in huis te verwelkomen. Daarom trainen we onze professionals
+                niet alleen op hoogwaardige zorg, maar ook op het opbouwen van
+                persoonlijke relaties.
+              </div>
+              <div class="text">
+                Of het nu gaat om geavanceerde leeftijd, dementie of de ziekte
+                van Alzheimer, degeneratieve aandoeningen zoals MS of ALS,
+                postoperatieve zorg, inclusief cosmetische ingrepen,
+                gewrichtsvervanging of hartoperaties, of chronische aandoeningen
+                zoals diabetes, COPD of kanker - wij zijn er om te helpen.
+              </div>
+              <div class="text">
+                En niet te vergeten, we bieden ook back-upzorg voor kinderen.
+              </div>
+
+              <div class="bold-text">
+                Laat ons u helpen bij de zorg voor uw dierbare!
+              </div>
+            </div>
+          </div>
+
+          <!--Image Column-->
+          <div
+            class="image-column"
+            style="background-image: url(images/resource/video-img.jpg)"
+          ></div>
+          <!--End Image Column-->
+        </div>
+      </section>
+      <!-- End Fluid Section One -->
+
+      <!-- Meeting Section -->
+      <section class="meeting-section">
+        <div class="auto-container">
+          <h2>Start met de zorg bij Die Haghe Zorg</h2>
+          <div class="bold-text">Hoe gaat dit in de praktijk in zijn werk?</div>
+          <div class="text">
+            Het bieden van zorg van het hoogste kwaliteitsniveau begint met een
+            persoonlijke kennismaking. Bij deze ontmoeting komen de familie
+            en/of de cliënt samen met een coördinator van Die Haghe Zorg.
+            Tijdens deze bijeenkomst worden de benodigde zorgbehoeften grondig
+            besproken, wordt het gewenste schema vastgesteld (indien bekend),
+            worden eventuele specifieke verzoeken van de familie of de cliënt
+            behandeld, en kunnen alle overige zorgen worden geuit.
+          </div>
+          <div class="text">
+            Dit moment biedt niet alleen de kans om vragen te stellen aan onze
+            zorgverleners, maar ook voor ons om u beter te leren kennen. We
+            begrijpen dat het allemaal overweldigend kan lijken, maar we staan
+            klaar om u te ondersteunen. Met onze ruime ervaring kunnen we
+            gerichte aanbevelingen doen die passen bij uw specifieke situatie.
+          </div>
+          <div class="row clearfix">
+            <!-- Content Column -->
+            <div class="content-column col-lg-8 col-md-12 col-sm-12">
+              <div class="inner-column">
+                <h3>
+                  Tijdens de eerste ontmoeting worden vaak de volgende
+                  onderwerpen besproken:
+                </h3>
+                <ul class="list-style-four">
+                  <li>
+                    Specifieke lichamelijke behoeften van de zorgvrager met
+                    betrekking tot persoonlijke verzorging, zoals baden en
+                    verzorging, aankleden, maaltijden en dieet, mobiliteit en
+                    incontinentie.
+                  </li>
+                  <li>
+                    Het bekijken van schema's met betrekking tot slaap, eten en
+                    medicatie.
+                    <br />
+                    Specifieke emotionele behoeften zoals sociale interactie,
+                    activiteiten, gesprekken, afspraken en gezelschap.
+                  </li>
+                  <li>
+                    Specifieke hulp bij huishoudelijke taken zoals het bereiden
+                    van maaltijden, boodschappen doen, beddengoed, wassen, en
+                    lichte huishoudelijke taken.
+                  </li>
+                  <li>
+                    Logistiek van schema's, toegang tot het huis, documentatie
+                    en de details over hoe om te gaan met wijzigingen in de
+                    planning, het kantoor of de zorgverleners.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Image Column -->
+            <div class="image-column col-lg-4 col-md-12 col-sm-12">
+              <div
+                class="inner-column wow fadeInRight"
+                data-wow-delay="0ms"
+                data-wow-duration="1500ms"
+              >
+                <div class="image">
+                  <img src="images/resource/meeting.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Meeting Section -->
+
+      <!-- Call To Action Section -->
+      <section
+        class="call-to-action-section"
+        style="background-image: url(images/background/1.png)"
+      >
+        <div class="auto-container">
+          <h2>Ook deel uitmaken van zorg op het hoogste niveau?</h2>
+          <div class="text">
+            Kom ons versterken en laat ons profiteren van jouw kunde.
+          </div>
+          <a href="contact.html" class="theme-btn btn-style-two"
+            ><span class="txt">Neem contact op</span></a
+          >
+        </div>
+      </section>
+      <!-- End Call To Action Section -->
+
+      <!-- Map Section -->
+      <section class="map-section">
+        <div class="outer-container">
+          <div class="map-outer">
+            <div
+              class="map-canvas"
+              data-zoom="13"
+              data-lat="52.05494941195513"
+              data-lng="4.339085719774552"
+              data-type="roadmap"
+              data-hue="#ffc400"
+              data-title=""
+              data-icon-path="images/icons/map-marker.png"
+              data-content="Haagweg 128A<br>2282 AH Rijswijk<br>070 223 0039 <br> Ma-vrij: 9.00 - 17.00"
+            ></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Map Section -->
+
+      <!--Main Footer-->
+      <footer class="main-footer">
+        <div class="auto-container">
+          <!--Widgets Section-->
+          <div class="widgets-section">
+            <div class="row clearfix">
+              <!--big column-->
+              <div class="big-column col-lg-6 col-md-12 col-sm-12">
+                <div class="row clearfix">
+                  <!--Footer Column-->
+                  <div class="footer-column col-lg-7 col-md-6 col-sm-12">
+                    <div class="footer-widget logo-widget">
+                      <div class="logo">
+                        <a href="index.html"
+                          ><img src="images/footer-logo.png" alt=""
+                        /></a>
+                      </div>
+                      <div class="text">
+                        Die Haghe Zorg in een thuiszorg organisatie werkzaam in
+                        de regio Den Haag.
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--Footer Column-->
+                  <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                    <div class="footer-widget links-widget">
+                      <h2>Links</h2>
+                      <div class="widget-content">
+                        <ul class="list">
+                          <li><a href="over-ons.html">Over Ons</a></li>
+                          <li><a href="#services-section">Onze diensten</a></li>
+                          <li><a href="blog.html">Laatste Nieuws</a></li>
+                          <li>
+                            <a href="caregiver.html">Vacatures</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--big column-->
+              <div class="big-column col-lg-6 col-md-12 col-sm-12">
+                <div class="row clearfix">
+                  <!--Footer Column-->
+                  <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                    <div class="footer-widget contact-widget">
+                      <h2>Contact Info</h2>
+                      <div class="widget-content">
+                        <a href="tel:1800-574-9687" class="contact-number"
+                          >070 223 0039</a
+                        >
+                        <ul>
+                          <li>
+                            Haagweg 128A <br />
+                            2282 AH Rijswijk
+                          </li>
+                          <li>
+                            Email :<a href="mailto:info@diehaghezorg.nl">
+                              info@diehaghezorg.nl</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--Footer Column-->
+                  <div class="footer-column col-lg-7 col-md-6 col-sm-12">
+                    <div class="footer-widget newsletter-widget">
+                      <h2>Nieuwsbrief</h2>
+                      <div class="text">
+                        Blijf op de hoogte van het laatste nieuws
+                      </div>
+                      <!-- Newsletter Form -->
+                      <div class="newsletter-form">
+                        <form method="post" action="contact.html">
+                          <div class="form-group">
+                            <input
+                              type="email"
+                              name="email"
+                              value=""
+                              placeholder="Voer je email in"
+                              required
+                            />
+                            <button
+                              type="submit"
+                              class="theme-btn btn-style-one"
+                            >
+                              <span class="txt">Abonneer</span>
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Footer Bottom-->
+          <div class="footer-bottom clearfix">
+            <div class="pull-left">
+              <div class="copyright">&copy; Die Haghe Zorg 2023.</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!--End pagewrapper-->
+
+    <!--Scroll to top-->
+    <div class="scroll-to-top scroll-to-target" data-target="html">
+      <span class="fa fa-angle-up"></span>
+    </div>
+
+    <!--Scroll to top-->
+    <script src="js/jquery.js"></script>
+    <!--Revolution Slider-->
+    <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="js/main-slider-script.js"></script>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/script.js"></script>
+    <!--Google Map APi Key-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIrL19EwYFywGl3OyGSJMMaKNcjPIFC4I"></script>
+    <script src="js/map-script.js"></script>
+    <!--End Google Map APi-->
+  </body>
 </html>

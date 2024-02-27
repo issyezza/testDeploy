@@ -1,0 +1,32 @@
+{
+    "verzorging": {
+        "title": "Persoonlijke Verzorging",
+        "p1": "Kunt u momenteel niet voor uzelf zorgen, wellicht door een aandoening of als gevolg van een ongeval? Wij zijn er om u te helpen met uw dagelijkse verzorging. Onze ervaren en goed opgeleide medewerkers staan voor u klaar om te assisteren bij activiteiten zoals wassen, aankleden, en het in- en uit bed gaan. We stemmen onze zorg zorgvuldig af op uw persoonlijke behoeften en streven naar hoogwaardige en kwalitatieve persoonlijke verzorging.",
+        "p2": "Heeft u momenteel behoefte aan persoonlijke verzorging? Bent u nieuwsgierig naar de mogelijkheden of heeft u nog vragen? Wij staan klaar om u te helpen bij het regelen van uw zorgaanvraag. Zelfs als u nog geen doorverwijzing heeft, kunt u vrijblijvend contact met ons opnemen voor meer informatie of om zorg aan te vragen. Onze toegewijde medewerkers helpen u graag verder.",
+        "p3": ""
+    },
+    "verpleging": {
+        "title": "Verpleging",
+        "p1": "Thuiszorg is vaak een weloverwogen keuze. Wij begrijpen dat niet iedereen de behoefte heeft om in een ziekenhuis of verzorgingstehuis te verblijven tijdens het herstel van een ziekte of aandoening. Thuis herstellen is uitstekend mogelijk met de juiste zorg en verpleging. Onze BIG-geregistreerde verpleegkundigen bieden de zorg die u nodig heeft en streven naar een spoedig herstel.",
+        "p2": "Of het nu gaat om het verzorgen van wonden, het toedienen van injecties of het innemen van medicatie, voor hoogwaardige verpleegkundige zorg bent u bij ons aan het juiste adres. Onze medewerkers ondersteunen u bij verpleegtechnische handelingen en geven advies over het beheer van uw aandoening. Onze multidisciplinaire wijkteams werken in vaste samenstellingen, zodat u vertrouwde gezichten over de vloer krijgt.",
+        "p3": ""
+    },
+    "huishoudelijk": {
+        "title": "Huishoudelijke hulp",
+        "p1": "Die Haghe Zorg biedt thuis hulp bij uw huishouden wanneer u hier zelf niet meer toe in staat bent. Onze medewerkers staan voor u klaar om ondersteuning te bieden, zodat u comfortabel thuis kunt blijven wonen in een schone, frisse en opgeruimde omgeving.",
+        "p2": "Uw vaste hulp luistert naar uw wensen en bekijkt samen met u waar u ondersteuning nodig heeft. We streven ernaar om uw zelfstandigheid te behouden en daarom maken we gebruik van uw eigen mogelijkheden. Bijvoorbeeld, samen met een thuishulp kunt u uw bed opmaken als het u alleen niet meer lukt maar u wel graag meehelpt.",
+        "p3": "Naast hulp in de huishouding biedt Die Haghe Zorg een breed scala aan zorgdiensten aan huis. Als u naast hulp bij het huishouden ook andere zorg nodig heeft, kunnen we dit snel en efficiënt voor u regelen."
+    },
+    "begeleiding": {
+        "title": "Begeleiding",
+        "p1": "Voor velen hangt gezondheid af van verschillende factoren, waaronder het nauwkeurig bijhouden van afspraken met ziekenhuizen en andere zorgverleners. Bij Die Haghe Zorg staan we voor u klaar om u hierbij te ondersteunen. We helpen u niet alleen bij het organiseren en bijhouden van uw afspraken, maar indien nodig bieden we ook vertaal- en begeleidingsdiensten aan. Onze toegewijde teamleden zijn er om ervoor te zorgen dat u de beste zorg krijgt, waarbij we rekening houden met uw individuele behoeften en voorkeuren.",
+        "p2": "",
+        "p3": ""
+    },
+    "dagbesteding": {
+        "title": "Dagbesteding",
+        "p1": "Heb je ondersteuning nodig bij het vinden en behouden van een passende daginvulling? Individuele begeleiding van Die Haghe Zorg helpt je om specifieke uitdagingen aan te pakken. Samen stel je een plan op en ga je aan de slag. Praktisch en altijd gericht op jouw eigen mogelijkheden.",
+        "p2": "",
+        "p3": ""
+    }
+}
