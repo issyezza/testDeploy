@@ -43,7 +43,7 @@
       <div class="preloader"></div>
 
       <!-- Header Style Five -->
-      <header class="main-header header-style-five">
+      <header class="main-header header-style-five" id="header">
         <!-- Header Top Two -->
         <div class="header-top-two">
           <div class="auto-container clearfix">
@@ -123,27 +123,18 @@
                 >
                   <ul class="navigation clearfix">
                     <li class="current">
-                      <a href="index.html">Home</a>
+                      <a class="menu-item" href="index.html">Home</a>
                     </li>
                     <li>
-                      <a href="over-ons.html">Over ons</a>
+                      <a class="menu-item" href="over-ons.html">Over ons</a>
                     </li>
                     <li>
-                      <a href="thuiszorg.html">Thuiszorg</a>
-                      <ul>
-                        <li>
-                          <a href="elderly-service.html"
-                            >Verzorging & Verpleging</a
-                          >
-                        </li>
-                        <li>
-                          <a href="personal-care.html">Huishoudelijke hulp</a>
-                        </li>
-                        <li><a href="respite-care.html">Begeleiding</a></li>
-                        <li><a href="nursing.html">Dagbesteding</a></li>
-                      </ul>
+                      <a class="menu-item" href="thuiszorg.html">Thuiszorg</a>
+                      <ul></ul>
                     </li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                      <a class="menu-item" href="contact.html">Contact</a>
+                    </li>
                   </ul>
                 </div>
               </nav>
@@ -299,9 +290,7 @@
                   data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
                 >
                   <div class="link-box">
-                    <a
-                      href="elderly-service.html"
-                      class="theme-btn btn-style-one"
+                    <a href="thuiszorg.html" class="theme-btn btn-style-one"
                       ><span class="txt">Meer informatie</span></a
                     >
                   </div>
@@ -402,13 +391,13 @@
             <div class="service-block-two">
               <div class="inner-box">
                 <div class="image">
-                  <a href="elderly-service.html"
+                  <a href="thuiszorg.html"
                     ><img src="images/resource/service-4.jpg" alt=""
                   /></a>
                 </div>
                 <div class="lower-content">
                   <h3>
-                    <a href="elderly-service.html">Verzorging & Verpleging</a>
+                    <a href="thuiszorg.html">Verzorging & Verpleging</a>
                   </h3>
                   <div class="text">
                     Leverage agile frameworks to pro vide a robust synopsis for
@@ -422,12 +411,12 @@
             <div class="service-block-two">
               <div class="inner-box">
                 <div class="image">
-                  <a href="respite-care.html"
+                  <a href="thuiszorg.html"
                     ><img src="images/resource/service-6.jpg" alt=""
                   /></a>
                 </div>
                 <div class="lower-content">
-                  <h3><a href="respite-care.html">Begeleiding</a></h3>
+                  <h3><a href="thuiszorg.html">Begeleiding</a></h3>
                   <div class="text">
                     Leverage agile frameworks to pro vide a robust synopsis for
                     high level overviews approaches.
@@ -440,12 +429,12 @@
             <div class="service-block-two">
               <div class="inner-box">
                 <div class="image">
-                  <a href="personal-care.html"
+                  <a href="thuiszorg.html"
                     ><img src="images/resource/service-7.jpg" alt=""
                   /></a>
                 </div>
                 <div class="lower-content">
-                  <h3><a href="personal-care.html">Huishoudelijke Hulp</a></h3>
+                  <h3><a href="thuiszorg.html">Huishoudelijke Hulp</a></h3>
                   <div class="text">
                     Leverage agile frameworks to pro vide a robust synopsis for
                     high level overviews approaches.
@@ -458,13 +447,13 @@
             <div class="service-block-two">
               <div class="inner-box">
                 <div class="image">
-                  <a href="elderly-service.html"
+                  <a href="thuiszorg.html"
                     ><img src="images/resource/service-4.jpg" alt=""
                   /></a>
                 </div>
                 <div class="lower-content">
                   <h3>
-                    <a href="elderly-service.html">Dagbesteding</a>
+                    <a href="thuiszorg.html">Dagbesteding</a>
                   </h3>
                   <div class="text">
                     Leverage agile frameworks to pro vide a robust synopsis for
@@ -629,7 +618,7 @@
       <!-- End Map Section -->
 
       <!--Main Footer-->
-      <footer class="main-footer">
+      <footer class="main-footer" id="footer">
         <div class="auto-container">
           <!--Widgets Section-->
           <div class="widgets-section">
@@ -660,9 +649,15 @@
                         <ul class="list">
                           <li><a href="over-ons.html">Over Ons</a></li>
                           <li><a href="#services-section">Onze diensten</a></li>
-                          <li><a href="blog.html">Laatste Nieuws</a></li>
                           <li>
-                            <a href="caregiver.html">Vacatures</a>
+                            <a target="_blank" href="Uitsluitingscriteria.pdf"
+                              >Uitsluitingscriteria</a
+                            >
+                          </li>
+                          <li>
+                            <a target="_blank" href="klachtenreglement.pdf"
+                              >klachtenreglement</a
+                            >
                           </li>
                         </ul>
                       </div>

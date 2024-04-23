@@ -2,8 +2,8 @@ const title = document.getElementById("title");
 const p1 = document.getElementById("p1");
 const p2 = document.getElementById("p2");
 const p3 = document.getElementById("p3");
-let pageContent;
 
+let pageContent;
 fetch("thuiszorg.json")
   .then((res) => res.json())
   .then((text) => {
