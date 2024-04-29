@@ -2,6 +2,7 @@ const title = document.getElementById("title");
 const p1 = document.getElementById("p1");
 const p2 = document.getElementById("p2");
 const p3 = document.getElementById("p3");
+const p4 = document.getElementById("p4");
 
 let pageContent;
 fetch("thuiszorg.json")
@@ -18,8 +19,9 @@ function selectTypeOfCare(event) {
 }
 
 function changeContent(content) {
-  title.innerText = content?.title;
-  p1.innerText = content?.p1;
-  p2.innerText = content?.p2;
-  p3.innerText = content?.p3;
+  title.innerHTML = content?.title;
+  p1.innerHTML = content?.p1 || "";
+  p2.innerHTML = content?.p2 || "";
+  p3.innerHTML = content?.p3 || "";
+  p4.innerHTML = content?.p4 || "";
 }

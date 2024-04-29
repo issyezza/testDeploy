@@ -25,8 +25,20 @@
     },
     "dagbesteding": {
         "title": "Dagbesteding",
-        "p1": "Heb je ondersteuning nodig bij het vinden en behouden van een passende daginvulling? Individuele begeleiding van Die Haghe Zorg helpt je om specifieke uitdagingen aan te pakken. Samen stel je een plan op en ga je aan de slag. Praktisch en altijd gericht op jouw eigen mogelijkheden.",
-        "p2": "",
+        "p1": "Hoewel we op dit moment nog geen dagbesteding aanbieden, zijn we verheugd u te informeren dat we druk bezig zijn met het opzetten van deze service.",
+        "p2": "We streven ernaar om de dagbesteding in het najaar beschikbaar te hebben en zullen u op de hoogte houden van de voortgang. In de tussentijd blijven onze bestaande diensten en ondersteuning onverminderd beschikbaar, en staan we altijd klaar om u te helpen bij eventuele vragen of behoeften.",
         "p3": ""
+    },
+    "links": {
+        "title": "Links",
+        "p1": "<b><a href=\"https://www.venvn.nl/over-v-vn/\">V&VN</a></b> is met 105.000 leden de grootste beroepsvereniging van Nederland. V&VN is er voor verpleegkundigen, verzorgenden en verpleegkundig specialisten.",
+        "p2": "<b><a href=\"https://sbbzorg.nl/\">SBB Zorg(t)</a></b> heeft decennia lange ervaring met zorginstellingen zoals Pluryn en Dichterbij en richt zich op budgetbeheer en bewindvoering voor bewoners van zorginstellingen. Onze 24 medewerkers ondersteunen ruim 2.000 cliënten in Zuidoost Nederland."
+    },
+    "uitsluitingscriteria": {
+        "title": "Uitsluitingscriteria",
+        "p1": "Die Haghe Zorg heeft een uitsluitingscriteria opgesteld zodat het inzichtelijker wordt welke criteria Die Haghe Zorg hiervoor hanteert. Niet iedere (potentiële) cliënt komt in aanmerking voor zorg vanuit Die Haghe Zorg en dit document heeft als doel om deze criteria vast te leggen. Dit proces is van toepassing op alle (potentiële) cliënten van Die Haghe Zorg. Die Haghe Zorg is een instelling die allerlei soorten zorg biedt aan, in principe, alle cliënten. Er zijn echter een paar uitzonderingen op de regel die zijn opgenomen in de uitsluitingscriteria. Op basis van de uitsluitingscriteria zal worden beoordeeld of Die Haghe Zorg deze cliënt in zorg neemt.",
+        "p2": "<b>Uitgesloten zijn clienten:</b><ul class=\"list-style-two\"><li>problematisch, c.q. zeer storend gedrag voor de omgeving waarvan is vastgesteld dat dit gedrag langdurig van aard en niet beïnvloedbaar is;</li> <li>met een behoefte aan (zeer) intensieve persoonlijke begeleiding, welke verder reikt dan de aanwezige reguliere begeleiding;</li><li>die zeer gewelddadig en/of psychotisch zijn naar zichzelf en/of anderen die verbaal zeer agressief zijn;</li><li>die de hulp van Die Haghe Zorg niet willen accepteren.</li></ul>",
+        "p3": "<p>Hierdoor worden de cliënten met crisisgevoeligheid, therapieresistentie en volgende criteria niet aangenomen bij de voordeur, maar door- (of terug)verwezen na de intakefase:</p><ul class=\"list-style-two\"><li>Evident psychotische stoornissen, zoals schizofrenie, schizofrenie stoornissen, schizoaffectievestoornissen, psychotische stoornissen door somatische aandoeningen en psychotische stoornissen door middelengebruik;Ernstige persoonlijkheidsstoornissen die tevens een therapieresistent karakter hebben, zoals bijvoorbeeld ernstige impulscontroleproblematiek met tevens detentieverleden;</li><li>Ernstige bipolaire stoornissen, met name bipolaire I-stoornis die zich kenmerkt van heftige manische episodes;</li><li>Ernstige depressies met psychotische kenmerken waarbij tevens evidente suïcidaliteit aanwezig is.</li></ul><p>Elke cliënt die verwezen wordt, zal kritisch beoordeeld worden rekening houdend met bovenstaande criteria, welke weer teruggekoppeld zullen worden aan de verwijzende persoon/instantie.</p>",
+        "p4": ""
     }
 }

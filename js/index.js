@@ -3,7 +3,7 @@ const footerNode = document.getElementById("footer");
 const setActiveMenuItem = () => {
   const url = window.location.href;
   const menuItems = document.querySelectorAll(".menu-item");
-  menuItems.forEach(function (item) {
+  menuItems.forEach((item) => {
     const menuItemUrl = item.href;
     if (url === menuItemUrl) {
       item.parentElement.classList.add("current");

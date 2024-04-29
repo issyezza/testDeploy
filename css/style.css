@@ -556,6 +556,7 @@ li {
   color: #797979;
   font-weight: 400;
   margin-bottom: 10px;
+  list-style: inside;
 }
 
 /*=== List Style Four ===*/
